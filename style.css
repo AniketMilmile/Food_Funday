@@ -1,0 +1,105 @@
+.nav-link,
+a:link,
+a:visited {
+    color: white;
+    font-weight: 600;
+}
+
+#alink {
+    color: orangered;
+    border-bottom: solid 2px;
+}
+
+.din {
+    font-weight: 600;
+    font-family: 'nautilus_pompiliusregular';
+}
+
+.txt {
+    color: orangered;
+}
+
+.bookbtn {
+    background-color: orangered;
+    color: white;
+    font-weight: 600;
+    border: orangered 5px solid;
+    font-size: 25px;
+
+
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.80857;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    outline: none !important;
+    transition: all .3s ease-in-out;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    min-width: 219px;
+    padding: 10.5px 20px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 18px;
+    background: #e75b1e;
+    border: 3px solid #e75b1e;
+}
+
+.bookbtn:hover {
+    background-color: black;
+}
+
+#fd1 {
+    height: 120px;
+    width: 60px;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 50Px;
+
+
+}
+
+.fd2 {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: auto;
+    margin-top: 10px;
+    position: relative;
+    animation: anim 3s infinite;
+
+}
+
+@keyframes anim {
+    from {
+        top: 0px;
+        opacity: 0.5;
+    }
+
+    to {
+        top: 40px;
+        opacity: 0;
+    }
+}
+.menuitem{
+    height: 150px;
+    width: 250px;
+    border: 3px solid white;
+    color: white;
+     margin: auto;
+     padding: 20px;
+     text-align: center;
+     display: none;
+}
+.hide:hover .menuitem{
+    display: block;
+}
